@@ -1,0 +1,30 @@
+.nov .sub-title {
+	height: 15vh;
+	color: white;
+	margin: 0;
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Dancing Script', cursive;
+}
+
+.nov div {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.nov .pages {
+	height: 300px;
+	width: 460px;
+	border-radius: 7px;
+	margin: 15px;
+    object-fit: cover;
+    transition: all .8s ease;
+}
+
+.nov .pages:hover {
+  transform: scale(1.1);
+}
